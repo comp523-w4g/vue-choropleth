@@ -137,8 +137,3 @@ The dev server should detect modification and reload the demo
 ### Web example
 
 You'll also find an example using direct `<script>` include under `examples/browser-example`
-## Authors
-
-Guillermo Peralta Scura
-
-Thanks to the works of Mickaël Bouchaud with [Vue2Leaflet](https://raw.githubusercontent.com/KoRiGaN/Vue2Leaflet)
