@@ -14,8 +14,8 @@ export default [
     {
     county_id: 2,
     county_name: "Avery",
-    amount_w: 91.1,
-    amount_m: 93.88
+    amount_w: 91.11,
+    amount_m: 89.5
   },
     {
     county_id: 3,
@@ -26,8 +26,8 @@ export default [
     {
     county_id: 4,
     county_name: "Hoke",
-    amount_w: 91.1,
-    amount_m: 93.88
+    amount_w: 91.11,
+    amount_m: 89.5
   },
     {
     county_id: 5,
@@ -146,8 +146,8 @@ export default [
     {
     county_id: 24,
     county_name: "Columbus",
-    amount_w: 91.1,
-    amount_m: 93.88
+    amount_w: 91.11,
+    amount_m: 89.5
   },
     {
     county_id: 25,
@@ -278,8 +278,8 @@ export default [
     {
     county_id: 46,
     county_name: "Forsyth",
-    amount_w: 91.1,
-    amount_m: 93.88
+    amount_w: 91.11,
+    amount_m: 89.5
   },
     {
     county_id: 47,
