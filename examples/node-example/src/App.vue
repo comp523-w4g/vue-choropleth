@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ChoroplethMap :data="ncCountyData" titleKey="county_name" idKey="county_id" :value="value" :extraValues="extraValues" geojsonIdKey="county_id" :geojson="ncGeojson" :center="center" :colorScale="colorScale" mapStyle="height: 500px;" :zoom="1" :mapOptions="mapOptions">
+    <ChoroplethMap :data="ncCountyData" titleKey="county_name" idKey="county_id" :value="value" :extraValues="extraValues" geojsonIdKey="county_id" :geojson="ncGeojson" :center="center" :colorScale="colorScale" mapStyle="height: 500px;" :zoom="6.5" :mapOptions="mapOptions">
       <template scope="props">
         <InfoControl :item="props.currentItem" :unit="props.unit" title="Department" placeholder="Hover over a department"></InfoControl>
         <ReferenceChart title="Girls school enrolment" :colorScale="colorScale" :min="props.min" :max="props.max" position="topright"></ReferenceChart>
@@ -21,7 +21,7 @@ export default {
   components: { ChoroplethMap, InfoControl, ReferenceChart },
   data() {
     return {
-      center: [-78.890317, 35.867830999999995],
+      center: [35.3, -79.56],
       ncCountyData,
       ncGeojson,
       colorScale: ["e7d090", "e9ae7b", "de7062"],
